@@ -1,0 +1,376 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@charset"uft-8";
+body,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+body{
+    min-width: 960px;
+    font-family: 'Noto sans KR',sans-serif;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.cf:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.inner{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+#wrap{
+    width: 100%;
+   
+}
+#header{
+    height: 80px;
+    text-align: center;
+}
+#header h1{
+    
+    padding-top: 10px;
+}
+#header h1 img{
+    width: 170px;
+    height: 80px;
+}
+#header .headerIn{
+    padding-top: 15px;
+    text-align: right;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.headerIn .mypage{
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+}
+.headerIn .basket{
+     display: inline-block;
+    width: 25px;
+    height: 30px;
+}
+.headerIn .Info{}
+.headerIn .Info ul{
+    
+}
+.headerIn .Info ul li{
+    display: inline-block;
+}
+.headerIn .Info ul li a{
+    color: #000;
+    font-size: 12px;
+    display: inline-block;
+   
+}
+.headerIn .Info ul li:after{
+    content: "";
+    display:inline-block;
+    width:1px;
+    height: 8px;
+    background: #000;
+}
+.headerIn .Info ul li:last-child:after{
+   display: none;
+}
+
+
+
+
+.menumain{
+   
+}
+
+
+.menumain .rjator{
+    position: relative;
+    padding-top: 15px;
+}
+.menumain .rjator input{
+    width: 195px;
+    margin-bottom: 10px;
+    color: #fff;
+    border: 0;
+    height: 25px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 15px rgba(0,0,0,0.5);
+}
+input::-webkit-input-placeholder{
+    color:#fff;
+}
+input::-moz-placeholder{
+    color:#fff;
+}
+input::-moz-placeholder{
+    color:#fff;
+}
+input::-ms-input-placeholder{
+    color:#fff;
+}
+.menumain .rjator a{
+    display: inline-block;
+}
+.menumain .rjator a img{
+    width: 200px;
+    height: 30px;
+
+}
+.menumain .rjator a p{
+   position: absolute;
+    top: 15px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+
+.gdbox{
+    text-align: center;
+    min-height: 850px;
+    
+}
+.gdbox h2{
+    padding-bottom: 30px;
+}
+.gdbox p.red{
+    color: red;
+    font-size: 13px;
+    padding: 15px 0;
+    position: relative;
+}
+.gdbox p{
+    text-align: left;
+    margin-left: 30px;
+    position: absolute;
+}
+.gdbox .gdmenu{}
+.gdbox .gdmenu ul{
+    padding-bottom: 30px;
+}
+.gdbox .gdmenu ul li{
+    float: left;
+    background: #e69eaf;
+    border-radius: 15px;
+    width: 180px;
+    height: 50px;
+    font-size:14px;
+    line-height: 50px;
+    color: #fff;
+}
+.gdbox .gdmenu ul li.arrow{
+    background: url(../images/ghktkfvy.png) no-repeat;
+    width:45px;
+    height: 27px;
+    background-size:100%;
+    background-position: center center;
+    border-radius: none;
+    vertical-align: middle;
+    margin: 0 15px;
+    margin-top: 11px;
+}
+.gdbox .gdmenu ul li.on{
+    background: #e94f6a;
+}
+.gdbox .gbox1{
+    padding-bottom: 30px;
+}
+.gdbox .gbox1 textarea{
+    width: 900px;
+}
+.gdbox span{
+    float: right;
+    margin-right: 30px;
+}
+.gdbox span.btn{
+    float: none;
+    text-align: center;
+    background: #e69eaf;
+    display: block;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.gdbox span.btn a{
+    color: #fff;
+}
+.gdbox .gbox2 textarea{
+    width: 900px;
+}
+/*.gdbox inputinput[id="cb2"] + label{
+    display: inline-block;
+    background-color:#e94f6a;
+    border-radius: 7px;
+}
+
+*/
+.round1 {
+    position: relative;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.round1 .label1 {
+  background-color: #fff;
+  border: 1px solid #e94f6a;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 15px;
+  right: 130px;
+  position: absolute;
+  top: 4px;
+  width: 15px;
+}
+
+.round1 .label1:after {
+  border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 5px;
+    left: 4px;
+    opacity: 0;
+    position: absolute;
+    top: 3px;
+    transform: rotate(-45deg);
+    width: 6px;
+}
+
+.round1 .cBox1[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round1 .cBox1[type="checkbox"]:checked + label {
+  background-color:  #e69eaf;
+  border-color: #e94f6a;
+}
+
+.round1 .cBox1[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+
+.round2 {
+    position: relative;
+    text-align: right;
+    margin-right: 30px;
+}
+
+.round2 .label2 {
+  background-color: #fff;
+  border: 1px solid #e94f6a;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 15px;
+  right: 130px;
+  position: absolute;
+  top: 4px;
+  width: 15px;
+}
+
+.round2 .label2:after {
+ border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 5px;
+    left: 4px;
+    opacity: 0;
+    position: absolute;
+    top: 3px;
+    transform: rotate(-45deg);
+    width: 6px;
+}
+
+.round2 .cBox2[type="checkbox"] {
+  visibility: hidden;
+}
+
+.round2 .cBox2[type="checkbox"]:checked + label {
+  background-color: #e69eaf;
+  border-color: #e94f6a;
+}
+
+.round2 .cBox2[type="checkbox"]:checked + label:after {
+  opacity: 1;
+}
+
+
+.sns{
+    display: block;
+    
+}
+.sns ul.snsimg{
+    position: absolute;
+    top: 45px;
+    right: -50px;
+    background: url(../imga/images/sns_bg.png)no-repeat;
+    width: 50px;
+    height: 150px;
+}
+.sns ul.snsimg li{
+    text-align: center;
+    padding-top: 5px;
+}
+.sns ul.snsimg li a{}
+.sns ul.snsimg li a img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+
+
+#footer{
+    padding-top: 10px;
+    text-align: center;
+   
+}
+#footer .fotertop{
+    background: #e94f6a;
+    height: 40px;
+}
+#footer .fotertop ul{}
+#footer .fotertop ul li.on a{
+    color: #fff;
+    
+}
+#footer .fotertop ul li.on1 a{
+    color: #fff;
+    margin-left: 10px;
+}
+#footer .fotertop ul li{
+    color: #000;
+    display: inline-block;
+}
+#footer .fotertop ul li a{
+    margin-right: 5px;
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+
+#footer .foin{
+    background: #eea2b4;
+    height: 60px;
+}
+#footer .foin p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+}

@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+boby,h1,h2,p{
+    margin: 0;
+}
+html,body{
+    margin: 0;
+    font-family: 'Nanum Barun Gothic', sans-serif;
+    
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.cf:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+#wrap{
+    width:100%;
+    display: block;
+}
+
+#header{
+    position: relative;
+}
+#header h1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 10px;
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    color: #e94f6a;
+    font-family: 'Nanum Barun Gothic';
+    
+}
+#header .headerMune{
+    padding: 10px;
+}
+#header ul{
+     width: 30px;
+    height: 30px;
+}
+#header ul li.left{
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+#header ul li.right{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#header ul li a{}
+#header ul li a img{
+    width: 30px;
+    height: 30px;
+}
+
+#container{
+    
+}
+#container .mainSlider{
+    width: 100%;
+    height: 200px;
+}
+#container .mainSlider img{
+    width: 100%;
+    height: 200px;
+}
+#container .brand{
+    width: 50px;
+}
+#container .brand img{
+    position: absolute;
+    padding: 10px;
+    height: 30px;
+}
+#container .brand p{
+    color: #e94f6a;
+    font-size: 15px;
+    font-weight: 900;
+    width: 100px;
+    height: 35px;
+    padding: 10px 20px;
+}

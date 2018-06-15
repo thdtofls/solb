@@ -1,0 +1,393 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@charset"uft-8";
+body,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+body{
+    min-width: 960px;
+    font-family: 'Noto sans KR',sans-serif;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.cf:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.inner{
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+#wrap{
+    width: 100%;
+}
+#header{
+    height: 80px;
+    text-align: center;
+}
+#header h1{
+    
+    padding-top: 10px;
+}
+#header h1 img{
+    width: 170px;
+    height: 80px;
+}
+#header .headerIn{
+    padding-top: 15px;
+    text-align: right;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.headerIn .mypage{
+    display: inline-block;
+    width: 25px;
+    height: 30px;
+}
+.headerIn .basket{
+     display: inline-block;
+    width: 25px;
+    height: 30px;
+}
+.headerIn .Info{}
+.headerIn .Info ul{
+    
+}
+.headerIn .Info ul li{
+    display: inline-block;
+}
+.headerIn .Info ul li a{
+    color: #000;
+    font-size: 12px;
+    display: inline-block;
+   
+}
+.headerIn .Info ul li:after{
+    content: "";
+    display:inline-block;
+    width:1px;
+    height: 8px;
+    background: #000;
+}
+.headerIn .Info ul li:last-child:after{
+   display: none;
+}
+
+.menumain{
+    min-height: 1200px;
+}
+.menumain .rjator{
+    position: relative;
+    padding-top: 15px;
+    float: left;
+}
+.menumain .rjator input{
+    width: 195px;
+    margin-bottom: 10px;
+    color: #fff;
+    border: 0;
+    height: 25px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 15px rgba(0,0,0,0.5);
+}
+input::-webkit-input-placeholder{
+    color:#fff;
+}
+input::-moz-placeholder{
+    color:#fff;
+}
+input::-moz-placeholder{
+    color:#fff;
+}
+input::-ms-input-placeholder{
+    color:#fff;
+}
+.menumain .rjator a{
+    display: inline-block;
+}
+.menumain .rjator a img{
+    width: 200px;
+    height: 30px;
+
+}
+.menumain .rjator a p{
+   position: absolute;
+    top: 15px;
+    color: #fff;
+    margin-left: 5px;
+}
+.menuin{
+    width: 200px;
+    height: 390px;
+    position: relative;
+}
+.menuin ul{
+   
+}
+.menuin ul li p{
+    color: #fff;
+    padding-top: 15px;
+}
+.menuin ul.menuInfo{
+    float: left;
+    
+}
+.menuin ul.menuInfo1{
+    float: left;
+    padding-left: 18px;
+   
+}
+.menuin ul.menuInfo1 li{
+     background: url(../imga/images/menu_bg.png)no-repeat;
+    width: 90px;
+    height: 50px;
+    padding-bottom: 15px;
+}
+.menuin ul.menuInfo li{
+    background: url(../imga/images/menu_bg.png)no-repeat;
+    width: 90px;
+    height: 50px;
+     padding-bottom: 15px;
+}
+.menuin ul.menuInfo li.bg a{
+    background: #db4e66;
+   height: 60px;
+}
+.menuin ul.menuInfo li a{
+    text-align: center;
+}
+.menuin ul.menuInfo1 li a{
+    text-align: center;
+}
+
+
+.thapsb{
+    text-align: center;
+    margin-left: 220px;
+     padding-top: 15px;
+}
+.thapsb ul.menu{
+    background: #e69eaf;
+    display: inline-block;
+     width: 730px;
+    height: 25px;
+}
+.thapsb ul.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.thapsb ul.menu li.colorber{
+    background: #db4e66;
+    
+}
+.thapsb ul.menu li a{
+  color: #fff;
+}
+
+
+.cncjs{
+    text-align: right;
+    font-size: 15px;
+    position: absolute;
+    right: 5px;
+}
+.cncjs ul.cnbox{}
+.cncjs ul.cnbox li{
+    display: inline-block;
+}
+.cncjs ul.cnbox li.bold{
+    font-weight: bold;
+}
+.cncjs ul.cnbox li a{
+    color: #000;
+    display:inline-block;
+}
+
+.cncjs ul.cnbox li:after{
+    content: "";
+    display:inline-block;
+    width:1px;
+    height: 8px;
+    background: #000;
+}
+
+.tkdvna{
+    position: absolute;
+    top: 65px;
+    right: 10px;
+   
+} 
+.tkdvna .tkd1{}
+.tkdvna .tkd1 .tkdbox1{
+    width: 750px;
+    height: 547px;
+}
+.tkdbox1 .box1{}
+.tkdbox1 .box1 ul.box1_1{
+   text-align: center;
+}
+.tkdbox1 .box1 ul.box1_1 li{
+    display: inline-block;
+       margin: 0 30px;
+   
+    
+}
+.tkdbox1 .box1 ul.box1_1 li a{
+    color: #000;
+    font-size: 15px;
+}
+.tkdbox1 .box1 ul.box1_1 li a img{
+    width: 180px;
+    height: 180px;
+}
+
+
+.tkdbox1 .box1 ul.box1_2{
+     text-align: center;
+
+}
+.tkdbox1 .box1 ul.box1_2 li{
+    display: inline-block;
+        margin: 0 30px;
+}
+.tkdbox1 .box1 ul.box1_2 li a{
+    color: #000;
+        font-size: 15px;
+
+}
+.tkdbox1 .box1 ul.box1_2 li a img{
+    width: 180px;
+    height: 180px;
+}
+
+.tkdbox2{
+    width:100%;
+    margin-top: 185px;
+}
+.tkdbox2 .box2{
+    
+}
+.tkdbox2 .box2 dl.box1_3{
+    margin-right: -5px;
+    text-align: center;
+}
+.tkdbox2 .box2 dl.box1_3 dt{
+    display: inline-block;
+        margin-right: 55px;
+     
+    
+}
+.tkdbox2 .box2 dl.box1_3 dt.on{
+ padding-right: 5px;
+}
+.tkdbox2 .box2 dl.box1_3 dt a{
+     color: #000;
+    font-size: 15px;
+    
+}
+.tkdbox2 .box2 dl.box1_3 dt a img{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+.tkdbox2 .box2 dl.box1_4{
+    text-align: center;
+    margin-right: -5px;
+}
+.tkdbox2 .box2 dl.box1_4 dt{
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: top;
+}
+.tkdbox2 .box2 dl.box1_4 dt a{
+     color: #000;
+     font-size: 15px;
+}
+.tkdbox2 .box2 dl.box1_4 dt.on{
+ padding-right: 5px;
+}
+.tkdbox2 .box2 dl.box1_4 dt a img{
+    width: 180px;
+    height: 180px;
+}
+
+
+
+.cncjs ul.cnbox li:last-child:after{
+   display: none;
+}
+
+.sns{
+    
+    
+}
+.sns ul.snsimg{
+    position: absolute;
+    top: 45px;
+    right: -50px;
+    background: url(../imga/images/sns_bg.png)no-repeat;
+    width: 50px;
+    height: 150px;
+}
+.sns ul.snsimg li{
+    text-align: center;
+    padding-top: 5px;
+}
+.sns ul.snsimg li a{}
+.sns ul.snsimg li a img{
+    width: 40px;
+    height: 40px;
+}
+
+#footer{
+    padding-top: 10px;
+    text-align: center;
+}
+#footer .fotertop{
+    background: #e94f6a;
+    height: 40px;
+}
+#footer .fotertop ul{}
+#footer .fotertop ul li.on a{
+    color: #fff;
+    
+}
+#footer .fotertop ul li.on1 a{
+    color: #fff;
+    margin-left: 10px;
+}
+#footer .fotertop ul li{
+    color: #000;
+    display: inline-block;
+}
+#footer .fotertop ul li a{
+    margin-right: 5px;
+    text-align: center;
+    color: #000;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+
+#footer .foin{
+    background: #eea2b4;
+    height: 60px;
+}
+#footer .foin p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+}
